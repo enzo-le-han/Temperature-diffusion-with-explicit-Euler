@@ -72,7 +72,7 @@ s = 1
 p = 0
 for n in range(0, Nt):
 
-    if n>Nt : s=0 # Stop source temperature at the middle time
+    if n>Nt/2 : s=0 # Stop source temperature at the middle time
 
 
     T = Trace 
