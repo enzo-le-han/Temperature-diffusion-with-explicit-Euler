@@ -126,7 +126,7 @@ for n in range(0, Nt):
 
     ax1.text(0.02, 0.95, f'Time = {n * dt:.2f} s', transform=ax1.transAxes, color='white', fontsize=12,verticalalignment='top')
     if s==1 : ax1.text(0.02, 0.90, f'Tsource = {T_init_max:.2f}°C', transform=ax1.transAxes, color='white', fontsize=12, verticalalignment='top')
-    else : ax1.text(0.02, 0.90, "Tsource = rien", transform=ax1.transAxes, color='white', fontsize=12, verticalalignment='top')
+    else : ax1.text(0.02, 0.90, "Tsource = nothing", transform=ax1.transAxes, color='white', fontsize=12, verticalalignment='top')
     ax1.text(0.02, 0.85, f'Tmax = {Tmax:.2f}°C', transform=ax1.transAxes, color='white', fontsize=12, verticalalignment='top')
     ax1.text(0.02, 0.80, f'Tmin = {Tmin:.2f}°C', transform=ax1.transAxes, color='white', fontsize=12, verticalalignment='top')
     ax1.text(0.02, 0.75, f'TsideL = {T[0, int(Nx/2)]:.2f}', transform=ax1.transAxes, color='white', fontsize=12, verticalalignment='top')
